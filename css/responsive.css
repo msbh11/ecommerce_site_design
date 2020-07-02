@@ -1,0 +1,134 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .logo{
+        margin-top: 10px;
+    }
+    .header-right ul {
+        padding-left: 0px;
+        /* position: relative; */
+    }
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 25px;
+    }
+    .slider-text {
+        padding-left: 20px;
+    }
+    .single-slider {
+        height: 410px;
+    }
+    .product-tab ul li {
+        margin-right: 30px;
+    }
+    .subscribe-wrapper{
+        padding: 0 15px;
+    }
+    .subscribe-wrapper input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe-wrapper button {
+        position: relative;
+        right: 0px;
+    }
+    .footer-icon {
+        margin-top: 20px;
+        margin-left: 8px;
+    }
+    .footer-menu li {
+        margin-right: 18px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .footer-icon {
+        margin-top: 20px;
+    }
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.header-right ul {
+    padding-left: 150px;
+    position: relative;
+}
+
+.single-slider {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    }
+
+.slider-text h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.slider-text {
+    padding-left: 50px;
+}
+
+/* .banner-area.banner-img{
+width: 720px;
+
+} */
+.subscribe-wrapper input {
+    border: 1px solid #ddd;
+    width: 74%;
+    float: left;
+    height: 47px;
+    padding: 0 18px;
+    font-size: 14px;
+    color: #888;
+    padding-left: 20px;
+    line-height: 49px;
+    margin-left: 22px;
+}
+
+.subscribe-wrapper button {
+    background: #222222 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    padding: 13px 26px;
+    /* margin-right: 12px; */
+    position: absolute;
+    right: 35px;
+    /* padding: 17px 35px; */
+    border: 0;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.main-menu ul li {
+    margin-right: 20px;
+}
+.header-right ul {
+    padding-left: 84px;
+    position: relative;
+}
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1500px) { 
+
+.container {
+	max-width: 1250px;
+}
+
+ }

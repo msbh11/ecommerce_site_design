@@ -1,0 +1,969 @@
+                                                                                /*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+                                                                            /* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+ /* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+/* font-family: 'Oswald', sans-serif; */
+                                                                            
+.img {
+     max-width: 100%;
+     transition: all 0.3s ease-out 0s;
+}
+                                                                            
+ .f-left {
+     float: left
+ }
+                                                                            
+ .f-right {
+     float: right
+ }
+                                                                            
+ .fix {
+     overflow: hidden
+ }
+                                                                            
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+                                                                            
+       :focus,
+                                                                            .button:focus {
+                                                                                text-decoration: none;
+                                                                                outline: none;
+                                                                            }
+                                                                            
+                                                                            a:focus,
+                                                                            a:hover,
+                                                                            .portfolio-cat a:hover,
+                                                                            .footer -menu li a:hover {
+                                                                                color: #2B96CC;
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+    a,
+    button {
+        color: #888;
+        outline: medium none;
+    }
+    
+    .uppercase {
+        text-transform: uppercase;
+    }
+                                                                            
+    .capitalize {
+        text-transform: capitalize;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        color: #313131;
+        margin-top: 0px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: normal;
+    }
+                                                                            
+                                                                            h1 a,
+                                                                            h2 a,
+                                                                            h3 a,
+                                                                            h4 a,
+                                                                            h5 a,
+                                                                            h6 a {
+                                                                                color: inherit;
+                                                                            }
+                                                                            
+                                                                            h1 {
+                                                                                font-size: 40px;
+                                                                                font-weight: 500;
+                                                                            }
+                                                                            
+                                                                            h2 {
+                                                                                font-size: 35px;
+                                                                            }
+                                                                            
+                                                                            h3 {
+                                                                                font-size: 28px;
+                                                                            }
+                                                                            
+                                                                            h4 {
+                                                                                font-size: 22px;
+                                                                            }
+                                                                            
+                                                                            h5 {
+                                                                                font-size: 18px;
+                                                                            }
+                                                                            
+                                                                            h6 {
+                                                                                font-size: 16px;
+                                                                            }
+                                                                            
+                                                                            ul {
+                                                                                margin: 0px;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            
+                                                                            li {
+                                                                                list-style: none
+                                                                            }
+                                                                            
+                                                                            p {
+                                                                                font-size: 14px;
+                                                                                font-weight: normal;
+                                                                                line-height: 24px;
+                                                                                color: #7e7e7e;
+                                                                                margin-bottom: 15px;
+                                                                            }
+                                                                            
+                                                                            hr {
+                                                                                border-bottom: 1px solid #eceff8;
+                                                                                border-top: 0 none;
+                                                                                margin: 30px 0;
+                                                                                padding: 0;
+                                                                            }
+                                                                            
+                                                                            label {
+                                                                                color: #7e7e7e;
+                                                                                cursor: pointer;
+                                                                                font-size: 14px;
+                                                                                font-weight: 400;
+                                                                            }
+                                                                            
+                                                                            *::-moz-selection {
+                                                                                background: #d6b161;
+                                                                                color: #fff;
+                                                                                text-shadow: none;
+                                                                            }
+                                                                            
+                                                                             ::-moz-selection {
+                                                                                background: #444;
+                                                                                color: #fff;
+                                                                                text-shadow: none;
+                                                                            }
+                                                                            
+                                                                             ::selection {
+                                                                                background: #444;
+                                                                                color: #fff;
+                                                                                text-shadow: none;
+                                                                            }
+                                                                            
+                                                                            *::-moz-placeholder {
+                                                                                color: #555555;
+                                                                                font-size: 14px;
+                                                                                opacity: 1;
+                                                                            }
+                                                                            
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+/* header */
+
+.header-area {
+    min-height: 170px;
+}
+
+.main-menu ul {}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 45px;
+    position: relative;
+}
+
+.main-menu ul li a {
+    color: #888;
+    display: block;
+    font-size: 14px;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+
+.main-menu ul li:hover>a {
+    color: #888
+}
+/* submenu */
+
+.main-menu ul li ul.submenu {
+    background: #222 none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 220px;
+    z-index: 214;
+}
+
+.main-menu ul li:hover>ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.main-menu ul li ul.submenu li {
+    border-bottom: 1px solid #999;
+    display: block;
+    margin: 0;
+}
+                                                                            
+.main-menu ul li ul.submenu li a {
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.main-menu ul li ul.submenu li:hover>a {
+    color: #888
+}
+
+.main-menu ul li ul.submenu li ul.submenu {
+    left: 100%;
+    top: 0;
+}
+/* mega menu */
+
+.main-menu ul li .mega-menu {
+    background: #222 none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    padding: 24px;
+    position: absolute;
+    top: 110%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 700px;
+    z-index: 214;
+}
+
+.main-menu ul li:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%
+}
+
+.main-menu ul li .mega-menu ul {
+    float: left;
+    padding-right: 30px;
+    width: 33.33%;
+}
+
+.main-menu ul li .mega-menu ul:last-child {
+    padding-right: 0
+}
+
+.main-menu ul li .mega-menu ul li {
+    display: block;
+    margin: 0;
+}
+
+.main-menu ul li .mega-menu ul li a {
+    color: #fff;
+    padding: 10px 15px 10px 0;
+    text-transform: capitalize;
+}
+
+.main-menu ul li .mega-menu ul li.mega-title a {
+    border-bottom: 1px solid #fff
+}
+
+.main-menu ul li.static {
+    position: static;
+}
+
+.static {
+    position: static;
+}
+                                                                            
+.pos {
+    position: relative;
+}
+
+.main-menu ul li .mega-menu.mega-full {
+    width: 100%
+}
+
+.main-menu ul li .mega-menu.mega-full ul {
+    width: 25%
+}
+
+.header-right {
+    text-align: right;
+}
+
+.header-right ul {
+    padding-left: 190px;
+    position: relative;
+}
+
+.header-right ul li a {
+    color: #222;
+    display: block;
+    font-size: 12px;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+                                                                            /* minicart*/
+                                                                            
+                                                                            .header-right ul.minicart {
+                                                                                background: #383333 none repeat scroll 0 0;
+                                                                                right: 0;
+                                                                                width: 380px;
+                                                                                position: absolute;
+                                                                                top: 100%;
+                                                                                padding: 50px;
+                                                                                text-align: right;
+                                                                                opacity: 0;
+                                                                                visibility: hidden;
+                                                                                transition: 0.all 0.3s ease 0s;
+                                                                                z-index: 214;
+                                                                            }
+                                                                            
+                                                                            .header-right li:hover>ul.minicart {
+                                                                                opacity: 1;
+                                                                                visibility: visible;
+                                                                                top: 100%;
+                                                                            }
+                                                                            
+                                                                            .header-right ul.minicart li {
+                                                                                padding: 35px 0;
+                                                                            }
+                                                                            
+ .cart-img {
+     float: left;
+ }
+ 
+ .header-right ul li .minicart .cart-content {
+     float: left; 
+     padding-left: 15px;
+     text-align: left;
+ }
+ 
+ .cart-content h3 {
+     color: #aaa;
+     font-weight: 400;
+ }
+                                                                            
+ ul.minicart .cart-content a {
+     color: #aaa;
+     font-weight: 400;
+ }
+                                                                            
+                                                                            .cart-price {
+                                                                                float: left;
+                                                                                color: #ddd;
+                                                                            }
+                                                                            
+                                                                            .cart-price .new {
+                                                                                font-size: 18px;
+                                                                            }
+                                                                            
+                                                                            .cart-price span {
+                                                                                color: #ddd;
+                                                                                font-size: 14px;
+                                                                                font-family: 'Oswald', sans-serif;
+                                                                            }
+                                                                            
+                                                                            .header-right ul li {
+                                                                                display: inline-block;
+                                                                                margin-left: 36px;
+                                                                            }
+                                                                            
+                                                                            .header-right ul li .minicart>li {
+                                                                                margin-left: 0;
+                                                                                display: block;
+                                                                                padding: 0;
+                                                                                overflow: hidden;
+                                                                                margin-bottom: 30px;
+                                                                            }
+                                                                            
+                                                                            .header-right ul li .minicart>li:last-child {
+                                                                                margin-bottom: 0;
+                                                                            }
+                                                                            
+                                                                            .header-right ul li .minicart .del-icon {
+                                                                                float: right;
+                                                                                margin-top: 50px;
+                                                                            }
+                                                                            
+.header-right ul li .minicart .del-icon>a {
+    color: #fff;
+}
+
+.total-price span {
+    color: #fff;
+}
+
+.total-price {
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.header-right ul li .minicart .checkout-link a {
+    background: #111111;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.header-right ul li .search-form {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 430px;
+    height: 51px;
+    background: #222 none repeat scroll 0 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+.header-right ul li:hover .search-form {
+	opacity: 1;
+	visibility: visible;
+	z-index: 124;
+	
+}
+.header-right ul li .search-form input{
+	background: none;
+	width: 100%;
+	border: 0 none;
+	height: 51px;
+	color: white;
+	padding: 0 15px;
+}
+.header-right ul li .search-form form{
+	position: relative;
+	width: 430px;
+	color: white;
+}
+.header-right ul li .search-form button{
+	position: absolute;
+	right: 0;
+	background: none;
+	border: 0 none;
+	color: white;
+	width: 50px;
+	height: 51px;
+}
+/**/
+
+.single-slider {
+    height: 630px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+ }
+
+.slider-text {
+    padding-left: 100px;
+}
+
+.slider-text h2 {
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.slider-text h2 span {
+    font-weight: 600;
+}
+
+.slider-text p {
+    font-size: 13px;
+    margin-bottom: 68px;
+}
+                                                                            
+.slider-text a {
+    color: #111111;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+}
+
+.slider-active .owl-nav {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.slider-active .owl-nav button.owl-prev {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.slider-active .owl-nav button.owl-next {
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.owl-nav::before {
+    background: #222 none repeat scroll 0 0;
+    bottom: 3px;
+    content: "";
+    height: 18px;
+    position: absolute;
+    margin-left: 35px;
+    width: 1px;
+    right: 42px;
+}
+/* product */
+.product-action {
+    position: absolute;
+    width: 68px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    margin: auto;
+    padding: 15px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+                                                                            
+.product-wrapper:hover .product-action {
+    opacity: 0.9;
+    transform: translateY(-50%);
+    visibility: visible;
+}
+
+.product-action>a {
+    display: block;
+    text-align: center;
+    color: #111;
+    padding: 13px 0;
+}
+
+.product-img {
+    position: relative;
+}
+
+.secondary-img {
+    position: absolute;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.product-wrapper:hover .secondary-img {
+    visibility: visible;
+    opacity: 1;
+    transition-timing-function: ease;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-img span {
+    position: absolute;
+    /* padding: 13px 0; */
+    text-transform: uppercase;
+    right: 18px;
+    top: 15px;
+}
+
+.product-content.text-center>h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.product-content.text-center {
+    padding: 25px 0;
+}
+
+.product-rating i {
+                                                                                font-size: 12px;
+                                                                                margin-bottom: 12px;
+}
+
+.price>span {
+                                                                                font-size: 18px;
+                                                                                font-weight: 400;
+                                                                                font-family: "Oswald";
+}
+
+.price>span del {
+                                                                                font-size: 18px;
+                                                                                font-family: inherit;
+                                                                                color: #888888;
+}
+                                                                            
+.cart-btn {
+                                                                                opacity: 0;
+                                                                                visibility: hidden;
+                                                                                transition: .3s;
+}
+                                                                            
+.cart-btn>a {
+                                                                                font-weight: 600;
+                                                                                font-family: "Oswald";
+                                                                                text-transform: uppercase;
+                                                                                color: #222;
+}
+                                                                            
+.cart-btn>a::before {
+                                                                                position: absolute;
+                                                                                background: #111;
+                                                                                height: 1px;
+                                                                                content: "";
+                                                                                width: 27%;
+                                                                                bottom: 0;
+}
+                                                                            
+.product-wrapper:hover .cart-btn {
+                                                                                background: #fff none repeat scroll 0 0;
+                                                                                transform: translateY(-94%);
+                                                                                visibility: visible;
+                                                                                opacity: 1;
+                                                                                transition-timing-function: ease;
+}
+                                                                            
+.product-tab {}
+
+.product-tab ul {}
+
+.product-tab ul li {
+  margin-right: 67px;
+}
+
+.product-tab ul li a {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    position: relative;
+}
+
+.product-tab ul li a.active:before {
+                                                                                background: #222;
+                                                                                bottom: 0;
+                                                                                content: "";
+                                                                                height: 1px;
+                                                                                position: absolute;
+                                                                                width: 100%;
+}
+
+.nav-style .owl-nav {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   top: -64px;
+   font-size: 13px;
+   text-transform: uppercase;
+}
+
+.nav-style .owl-nav button.owl-next {
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.nav-style .owl-nav button.owl-prev {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-style .owl-nav::before {
+    background: #222 none repeat scroll 0 0;
+    top: 0px;
+    content: "";
+    height: 21px;
+    position: absolute;
+    margin-left: 35px;
+    width: 1px;
+    right: 42px;  
+}  
+/* banner */
+.banner-img img {
+    width: 100%;
+    }
+/* subscribe */
+
+.subscribe-wrapper > h3 {
+    margin-bottom: 20px;
+    font-family: oswald;
+    font-size: 30px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.subscribe-wrapper > p {
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+    letter-spacing: .25px;
+}
+
+.subscribe-wrapper input {
+    border: 1px solid #ddd;
+    width: 79%;
+    float: left;
+    height: 47px;
+    /* padding: 0 18px; */
+    font-size: 14px;
+    color: #888;
+    padding-left: 20px;
+    line-height: 49px;
+}
+
+.subscribe-wrapper button{
+    background: #222222 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    padding: 12.5px 42px;
+    /* margin-right: 12px; */
+    position: absolute;
+    right: -28px;
+    /* padding: 17px 35px; */
+    border: 0;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+/* brand */
+
+.brand-active{
+  padding-bottom: 102px;
+  border-bottom: 1px solid #ddd;
+}
+
+.brand-active.owl-carousel .owl-item img {
+    display: block;
+    width: inherit;
+}
+
+.single-brand{
+    text-align: center;
+}
+
+.single-brand > a{
+    display: inline;
+}
+
+/* footer */
+
+.footer-link a{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.footer-widget > h3{
+    color: #222222;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* footer menu*/
+.footer-border{
+    border-top: 1px solid #ddd;
+    padding: 40px 0;
+}
+.footer-menu  li {
+    display: inline-block;
+    margin-right: 29px;
+    position: relative;
+    
+}
+.footer-menu  li a{
+    color:#888888;
+    text-transform: uppercase;
+    display: block;
+    /* padding: 25px 0; */
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+
+/* footer-icon*/
+
+.footer-icon{
+    margin-right: 10px;
+
+}
+.footer-icon > span{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: -20px;
+
+}
+.footer-icon > a{
+    margin-left: 28px;
+    color: #aaaaaa;
+
+}
+
+.footer-icon.text-right > a:hover{
+    color: #222222;
+
+}
+
+/* shop */
+
+/* .page-title-area.pt-100.pb-100{
+    background-size: cover;
+    background-position: center;
+}
+*/
+.shop-sidebar h4{
+
+font-size: 18px;
+font-weight: 600;
+padding-bottom: 10px;
+margin-bottom: 20px; 
+text-transform: uppercase;
+position: relative;
+
+
+}
+.shop-sidebar h4:after{
+    content: "";
+    width: 30px;
+    border-top: 2px solid #222;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+  
+   
+}
+
+.size {
+    padding: 0px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+
+.size li a{
+    color: #666;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.size li {
+    margin-bottom: 10px;
+
+}
+
+.shop-tab {
+    float: left;
+    margin-bottom: 20px;
+}
+.shop-tab li{
+    margin-right: 10px;
+
+}
+
+
+/* shop-layout */
+
+.shop-tab{
+	margin-bottom: 10px;
+	float: left;
+}
+.shop-tab li{
+	margin-right: 10px;
+}
+.shop-tab li a{
+	color: #d4d3d4;
+    border: 1px solid #222;
+    font-size: 20px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.shop-tab li a.active{
+    color: #222;
+
+} 
+
+.breadcrumb{
+	background: no-repeat;
+}
+
+
+/* list view */
+.shop-list-product-content {
+    margin-left: 15px;
+}
+.shop-list-product-content > h3{
+	font-size: 14px;
+
+}
+
+.shop-list-cart-btn{
+	margin-top: 60px;
+}
+
+.shop-list-cart-btn > a{
+	margin-right: 20px;
+}
+.shop-list .product-content > a{
+	margin-right: 20px;
+}
+.shop-list-product-content a.text{
+	border-bottom: 1px solid black;
+}
+
+.filter{
+    float: left;
+}
+.filter select{
+	height: 42px;
+}
+.shop-layout-bar{
+    overflow: hidden;
+}
