@@ -616,50 +616,50 @@ a,
 }
 
 .product-rating i {
-                                                                                font-size: 12px;
-                                                                                margin-bottom: 12px;
+    font-size: 12px;
+    margin-bottom: 12px;
 }
 
 .price>span {
-                                                                                font-size: 18px;
-                                                                                font-weight: 400;
-                                                                                font-family: "Oswald";
+     font-size: 18px;
+     font-weight: 400;
+     font-family: "Oswald";
 }
 
 .price>span del {
-                                                                                font-size: 18px;
-                                                                                font-family: inherit;
-                                                                                color: #888888;
+    font-size: 18px;
+    font-family: inherit;
+    color: #888888;
 }
                                                                             
 .cart-btn {
-                                                                                opacity: 0;
-                                                                                visibility: hidden;
-                                                                                transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
 }
                                                                             
 .cart-btn>a {
-                                                                                font-weight: 600;
-                                                                                font-family: "Oswald";
-                                                                                text-transform: uppercase;
-                                                                                color: #222;
+    font-weight: 600;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    color: #222;
 }
                                                                             
 .cart-btn>a::before {
-                                                                                position: absolute;
-                                                                                background: #111;
-                                                                                height: 1px;
-                                                                                content: "";
-                                                                                width: 27%;
-                                                                                bottom: 0;
+    position: absolute;
+    background: #111;
+    height: 1px;
+    content: "";
+    width: 27%;
+    bottom: 0;
 }
                                                                             
 .product-wrapper:hover .cart-btn {
-                                                                                background: #fff none repeat scroll 0 0;
-                                                                                transform: translateY(-94%);
-                                                                                visibility: visible;
-                                                                                opacity: 1;
-                                                                                transition-timing-function: ease;
+    background: #fff none repeat scroll 0 0;
+    transform: translateY(-94%);
+    visibility: visible;
+    opacity: 1;
+    transition-timing-function: ease;
 }
                                                                             
 .product-tab {}
@@ -680,12 +680,12 @@ a,
 }
 
 .product-tab ul li a.active:before {
-                                                                                background: #222;
-                                                                                bottom: 0;
-                                                                                content: "";
-                                                                                height: 1px;
-                                                                                position: absolute;
-                                                                                width: 100%;
+    background: #222;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 100%;
 }
 
 .nav-style .owl-nav {
@@ -967,3 +967,123 @@ position: relative;
 .shop-layout-bar{
     overflow: hidden;
 }
+
+/* product details*/
+
+.product-details-tab ul li{
+    width: 33.33%;
+    float:left;
+    padding: 0 5px;
+}
+
+.product-details-tab ul li a img{
+    width: 100%;
+}
+
+.product-details-tab ul li a {
+    padding:0;
+}
+
+.product-details-tab ul{
+    margin: 0 -5px;
+}
+
+.product-large-thumb img{
+    width: 100%;
+}
+
+.product-large-thumb{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.product-variation h5{
+
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    margin-top: 20PX;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.product-variation h5:after{
+        content: "";
+        width: 30px;
+        border-top: 2px solid #222;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+      
+       
+}
+
+.product-variation form label{
+    display: block;
+}
+.product-variation .nice-select .option{
+    width: 100%;
+}
+.product-variation .nice-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 0;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none ;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.product-d-action a{
+    background: #f6f6f6;
+    color: #222;
+    height: 40px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.product-d-action a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.quantity input{
+    width: 55px;
+}
+
+.quantity span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Oswald";  
+    width: 60px;  
+}
+
+
+
+
+

@@ -6,6 +6,8 @@
         meanScreenWidth: "767"
     });
 
+    
+
 
     $('.slider-active').owlCarousel({
         loop: true,
@@ -78,11 +80,10 @@
                 items: 5
             }
         }
-    })
-//select 
+    });
+
+//select
 $('select').niceSelect();
-
-
 
 
 })(jQuery);
