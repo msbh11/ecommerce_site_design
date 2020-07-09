@@ -53,19 +53,19 @@ a,
     transition: all 0.3s ease-out 0s;
 }
                                                                             
-       :focus,
-                                                                            .button:focus {
-                                                                                text-decoration: none;
-                                                                                outline: none;
-                                                                            }
-                                                                            
-                                                                            a:focus,
-                                                                            a:hover,
-                                                                            .portfolio-cat a:hover,
-                                                                            .footer -menu li a:hover {
-                                                                                color: #2B96CC;
-                                                                                text-decoration: none;
-                                                                            }
+    :focus,
+    .button:focus {
+        text-decoration: none;
+        outline: none;
+    }
+    
+    a:focus,
+    a:hover,
+    .portfolio-cat a:hover,
+    .footer -menu li a:hover {
+        color: #2B96CC;
+        text-decoration: none;
+    }
                                                                             
     a,
     button {
@@ -96,94 +96,94 @@ a,
         text-transform: normal;
     }
                                                                             
-                                                                            h1 a,
-                                                                            h2 a,
-                                                                            h3 a,
-                                                                            h4 a,
-                                                                            h5 a,
-                                                                            h6 a {
-                                                                                color: inherit;
-                                                                            }
-                                                                            
-                                                                            h1 {
-                                                                                font-size: 40px;
-                                                                                font-weight: 500;
-                                                                            }
-                                                                            
-                                                                            h2 {
-                                                                                font-size: 35px;
-                                                                            }
-                                                                            
-                                                                            h3 {
-                                                                                font-size: 28px;
-                                                                            }
-                                                                            
-                                                                            h4 {
-                                                                                font-size: 22px;
-                                                                            }
-                                                                            
-                                                                            h5 {
-                                                                                font-size: 18px;
-                                                                            }
-                                                                            
-                                                                            h6 {
-                                                                                font-size: 16px;
-                                                                            }
-                                                                            
-                                                                            ul {
-                                                                                margin: 0px;
-                                                                                padding: 0px;
-                                                                            }
-                                                                            
-                                                                            li {
-                                                                                list-style: none
-                                                                            }
-                                                                            
-                                                                            p {
-                                                                                font-size: 14px;
-                                                                                font-weight: normal;
-                                                                                line-height: 24px;
-                                                                                color: #7e7e7e;
-                                                                                margin-bottom: 15px;
-                                                                            }
-                                                                            
-                                                                            hr {
-                                                                                border-bottom: 1px solid #eceff8;
-                                                                                border-top: 0 none;
-                                                                                margin: 30px 0;
-                                                                                padding: 0;
-                                                                            }
-                                                                            
-                                                                            label {
-                                                                                color: #7e7e7e;
-                                                                                cursor: pointer;
-                                                                                font-size: 14px;
-                                                                                font-weight: 400;
-                                                                            }
-                                                                            
-                                                                            *::-moz-selection {
-                                                                                background: #d6b161;
-                                                                                color: #fff;
-                                                                                text-shadow: none;
-                                                                            }
-                                                                            
-                                                                             ::-moz-selection {
-                                                                                background: #444;
-                                                                                color: #fff;
-                                                                                text-shadow: none;
-                                                                            }
-                                                                            
-                                                                             ::selection {
-                                                                                background: #444;
-                                                                                color: #fff;
-                                                                                text-shadow: none;
-                                                                            }
-                                                                            
-                                                                            *::-moz-placeholder {
-                                                                                color: #555555;
-                                                                                font-size: 14px;
-                                                                                opacity: 1;
-                                                                            }
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+        color: inherit;
+    }
+    
+h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+h2 {
+        font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #7e7e7e;
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+ ::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+ ::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
                                                                             
 *::placeholder {
     color: #555555;
@@ -204,7 +204,7 @@ a,
 
 .main-menu ul li {
     display: inline-block;
-    margin-right: 45px;
+    margin-right: 35px;
     position: relative;
 }
 
@@ -336,35 +336,35 @@ a,
 .header-right ul li a {
     color: #222;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     padding: 25px 0;
     text-transform: uppercase;
 }
-                                                                            /* minicart*/
+/* minicart*/
+
+.header-right ul.minicart {
+    background: #383333 none repeat scroll 0 0;
+    right: 0;
+    width: 380px;
+    position: absolute;
+    top: 100%;
+    padding: 50px;
+    text-align: right;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.all 0.3s ease 0s;
+    z-index: 214;
+}
                                                                             
-                                                                            .header-right ul.minicart {
-                                                                                background: #383333 none repeat scroll 0 0;
-                                                                                right: 0;
-                                                                                width: 380px;
-                                                                                position: absolute;
-                                                                                top: 100%;
-                                                                                padding: 50px;
-                                                                                text-align: right;
-                                                                                opacity: 0;
-                                                                                visibility: hidden;
-                                                                                transition: 0.all 0.3s ease 0s;
-                                                                                z-index: 214;
-                                                                            }
-                                                                            
-                                                                            .header-right li:hover>ul.minicart {
-                                                                                opacity: 1;
-                                                                                visibility: visible;
-                                                                                top: 100%;
-                                                                            }
-                                                                            
-                                                                            .header-right ul.minicart li {
-                                                                                padding: 35px 0;
-                                                                            }
+.header-right li:hover>ul.minicart {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.header-right ul.minicart li {
+    padding: 35px 0;
+}
                                                                             
  .cart-img {
      float: left;
@@ -386,42 +386,42 @@ a,
      font-weight: 400;
  }
                                                                             
-                                                                            .cart-price {
-                                                                                float: left;
-                                                                                color: #ddd;
-                                                                            }
-                                                                            
-                                                                            .cart-price .new {
-                                                                                font-size: 18px;
-                                                                            }
-                                                                            
-                                                                            .cart-price span {
-                                                                                color: #ddd;
-                                                                                font-size: 14px;
-                                                                                font-family: 'Oswald', sans-serif;
-                                                                            }
-                                                                            
-                                                                            .header-right ul li {
-                                                                                display: inline-block;
-                                                                                margin-left: 36px;
-                                                                            }
-                                                                            
-                                                                            .header-right ul li .minicart>li {
-                                                                                margin-left: 0;
-                                                                                display: block;
-                                                                                padding: 0;
-                                                                                overflow: hidden;
-                                                                                margin-bottom: 30px;
-                                                                            }
-                                                                            
-                                                                            .header-right ul li .minicart>li:last-child {
-                                                                                margin-bottom: 0;
-                                                                            }
-                                                                            
-                                                                            .header-right ul li .minicart .del-icon {
-                                                                                float: right;
-                                                                                margin-top: 50px;
-                                                                            }
+.cart-price {
+    float: left;
+    color: #ddd;
+}
+
+.cart-price .new {
+    font-size: 18px;
+}
+
+.cart-price span {
+    color: #ddd;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.header-right ul li .minicart>li {
+    margin-left: 0;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.header-right ul li .minicart>li:last-child {
+    margin-bottom: 0;
+}
+
+.header-right ul li .minicart .del-icon {
+    float: right;
+    margin-top: 50px;
+}
                                                                             
 .header-right ul li .minicart .del-icon>a {
     color: #fff;
@@ -487,7 +487,7 @@ a,
 /**/
 
 .single-slider {
-    height: 630px;
+    height: 450px;
     display: flex;
     align-items: center;
     background-size: cover;
@@ -964,27 +964,25 @@ position: relative;
 .filter select{
 	height: 42px;
 }
-.shop-layout-bar{
-    overflow: hidden;
-}
+
 
 /* product details*/
 
-.product-details-tab ul li{
+.product-details-tab .tab ul li{
     width: 33.33%;
     float:left;
     padding: 0 5px;
 }
 
-.product-details-tab ul li a img{
+.product-details-tab .tab ul li a img{
     width: 100%;
 }
 
-.product-details-tab ul li a {
+.product-details-tab .tab ul li a {
     padding:0;
 }
 
-.product-details-tab ul{
+.product-details-tab .tab ul{
     margin: 0 -5px;
 }
 
@@ -1019,12 +1017,10 @@ position: relative;
        
 }
 
-.product-variation form label{
+.product-variation label{
     display: block;
 }
-.product-variation .nice-select .option{
-    width: 100%;
-}
+
 .product-variation .nice-select {
     -webkit-tap-highlight-color: transparent;
     background-color: #fff;
@@ -1056,21 +1052,33 @@ position: relative;
     margin-bottom: 25px;
 }
 
-
-.product-d-action a{
-    background: #f6f6f6;
-    color: #222;
+.product-d-action .btn-crt {
+   
     height: 40px;
     display: inline-block;
     padding: 0 15px;
     line-height: 40px;
     text-transform: uppercase;
     font-weight: 600;
-}
-.product-d-action a:hover {
+    border: 1px solid #222;
     color: #fff;
-    background: #222;
+    background-color: #222;
+
 }
+.product-d-action a i{
+
+    height: 40px;
+    color: #222;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 39px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #222;
+}
+
+
+
 
 .quantity input{
     width: 55px;
@@ -1082,7 +1090,82 @@ position: relative;
     font-family: "Oswald";  
     width: 60px;  
 }
+.product-rating span {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #ddd;
+}
+.share a{
+    padding: 0px 15px;;
+    color: white;
 
+}
+
+.share #twt{
+    border: 1px solid #1DA1F2;;
+    background-color: #1DA1F2;;
+}
+.share #fb{
+    border: 1px solid #2b5ecc;;
+    background-color: #2b5ecc;;
+}
+.share #ggl{
+    border: 1px solid #db4a39;;
+    background-color: #db4a39;;
+}
+.share #utube{
+    border: 1px solid #c4302b;;
+    background-color: #c4302b;;
+}
+.contact-details h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-details span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 42px;
+}
+.contact-details a {
+    padding-right: 15px;
+}
+
+.contact-form{
+    padding-bottom: 30px;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+.contact-form h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    float: right;
+}
+.contact-form textarea{
+        width: 100%;
+        float: right;
+        padding: 0 10px;
+        height: 130px;
+        margin-bottom: 10px;
+}
+.contact-form button {
+    float: right;
+    border: none;
+    color: #fff;
+    background: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+}
+
+    
 
 
 
