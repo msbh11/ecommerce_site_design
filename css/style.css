@@ -329,7 +329,7 @@ label {
 }
 
 .header-right ul {
-    padding-left: 190px;
+    padding-left: 175px;
     position: relative;
 }
 
@@ -348,7 +348,7 @@ label {
     width: 380px;
     position: absolute;
     top: 100%;
-    padding: 50px;
+    padding: 45px;
     text-align: right;
     opacity: 0;
     visibility: hidden;
@@ -386,7 +386,7 @@ label {
      color: #aaa;
      font-weight: 400;
      float: left;
-     margin-left: 14px;
+     margin-left: 10px;
  }
                                                                             
 .cart-price {
@@ -402,7 +402,7 @@ label {
     color: #ddd;
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
-    margin-left: 14px;
+    margin-left: 10px;
 
 }
 
@@ -415,7 +415,7 @@ label {
     padding: 0px;
     display: block;
     margin-left: 0;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     text-align: right;
     overflow: hidden;
     transition: .3s;
@@ -449,7 +449,7 @@ label {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .header-right ul li .search-form {
